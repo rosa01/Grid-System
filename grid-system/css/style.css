@@ -1,0 +1,184 @@
+/* Inserta tu codigo aqui */
+html{
+	font-family: sans-serif;
+}/**/
+div{
+	margin: 0;
+	padding: 0;
+}
+.containe{
+}
+
+img{
+	max-width:100%;
+
+}
+div{
+	box-sizing:border-box;
+}
+.header{
+	padding:10px;
+	background-color: rgb(60,60,60);
+	line-height: 90px;
+
+	overflow: auto;
+}
+.header .logo{
+	width:10%;
+	max-width: 80px;
+	min-width: 60px;
+	float:left;
+	vertical-align: middle;	
+	display: inline-block;
+}
+
+
+
+.menu{
+	font-size: 0px	;
+	width:90%;
+	list-style: none;
+	
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+	float:right;
+
+}
+.menu li{
+	display: inline-block;
+	
+	/*line-height:90px;
+	margin:0 0.6%;*/
+}
+
+@media only screen and (max-width: 767px) {
+	.menu a {font-size: 	50%;}
+}
+
+
+.menu a{
+	display: inline;
+	text-transform: uppercase;
+	color:white;
+	text-decoration:none;
+	padding:0 8px;
+	font-size: 15.5px;
+}
+.latest-ep{
+
+	font-weight: bold;
+	background-color: #DCDCDC;
+	padding: 2%;
+	border-bottom: rgb(120,120,120) solid 3px;
+	margin-bottom: 4%;
+}
+
+.header, .latest-ep, .footer{
+	width:100% !important;
+}
+.latest-ep h3{
+	display: inline;
+}
+.episodes img ,.latest-ep img{
+	
+	border:1px rgb(200,200,200) solid;
+	padding:3px;
+	background-color: white;
+}
+.latest-ep .imgs div{
+	padding: 2%;
+}
+	
+.episodes .row div{
+margin: 2% 0 2% 0;
+}
+.episodes,.latest-ep .row{ 
+	font-weight: bold;
+	font-size: 15px;
+	text-align: 	center;
+}
+
+.episodes{
+	float:left;
+	width:73%;
+}
+.side{
+	float:right;
+	width:25%;
+}
+
+.side a{
+
+	font-size: 16px;
+}
+
+.side ul{
+	list-style: none;
+	margin:20px 0;
+}
+.side img{
+	width:12px;
+	height:12px;
+}
+
+.side h4{
+	border-bottom: rgb(180,180,180) solid 2px;
+	margin: 12px 0;
+	padding-bottom: 2px;
+}
+.suscribe h4  {
+	border-bottom: rgb(120,120,120) solid 4px	;
+}
+
+.side li{
+		margin: 15px 0 15px 1px;
+}
+.side p{
+	line-height: 150%;
+	border-top:rgb(180,180,180) solid 2px;
+	padding-top:10px;	
+}
+.cuerpo{
+
+	overflow: auto;
+}
+.footer ul{
+	text-align: center;
+	font-weight: normal;
+	font-size: 15px;
+	list-style: none;
+	display: block;
+
+	
+}
+.footer li{
+	display: inline;
+	padding:0 10px;
+
+}
+.footer a{
+	text-decoration: none;
+
+	color: rgb(200,200,200);
+}
+
+.footer a:visited{
+	
+}
+.footer h6{
+	text-align: center;
+	color: rgb(125,125,125);
+}
+
+.footer{
+	padding:8px 8px;
+	margin-top: 5%;
+	display: block;
+	width:100%;
+	background-color: rgb(60,60,65);
+	position:relative;
+	bottom: 0;
+	color: white;
+	line-height:30px;
+}
